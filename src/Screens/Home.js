@@ -33,7 +33,7 @@ function Home() {
       <DataGrid
         rows={TodoData.todos}
         columns={columns}
-        pageSize={5}
+        pageSize={10}
         rowsPerPageOptions={[5]}   
         components={{
           NoRowsOverlay: () => (

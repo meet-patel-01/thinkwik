@@ -14,7 +14,8 @@ export const AppRoutes = {
 }
 
 function Routes() {  
-    const registerRoute = ['login', 'register', 'home']    
+    const registerRoute = ['login', 'register', 'home'];
+
     return (
         <Switch>
             {
